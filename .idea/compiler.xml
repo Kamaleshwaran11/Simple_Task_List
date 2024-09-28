@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Password_Generator" />
         <module name="TASK_1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Password_Generator" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
